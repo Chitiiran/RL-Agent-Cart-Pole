@@ -24,7 +24,7 @@ from util import plot, extract_tensors
 is_ipython = 'inline' in matplotlib.get_backend()
 if is_ipython: from IPython import display
 
-batch_size = 256
+batch_size = 255
 gamma = 0.999
 eps_start = 1
 eps_end = 0.01
